@@ -1,6 +1,6 @@
 
   Feature: US1001 kullanici deposits tablosu amount testi
-    @wip
+
     Scenario: TC01 deposits tablosunda belirli amount degerlerine sahip kayit testi
 
       Given kullanici loantech database'e baglanir

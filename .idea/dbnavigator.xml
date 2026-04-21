@@ -6,15 +6,15 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseAssistantManager">
     <assistants>
-      <assistant-state connection-id="b6ce084f-b8bf-44be-a9c4-b736dcefd5d5" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="AVAILABLE" acknowledgement="NONE" selected="true">
+      <assistant-state connection-id="b6ce084f-b8bf-44be-a9c4-b736dcefd5d5" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
         <tools />
       </assistant-state>
-      <assistant-state connection-id="b6ce084f-b8bf-44be-a9c4-b736dcefd5d5" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+      <assistant-state connection-id="b6ce084f-b8bf-44be-a9c4-b736dcefd5d5" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="AVAILABLE" acknowledgement="NONE" selected="true">
         <tools />
       </assistant-state>
     </assistants>
@@ -47,6 +47,7 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="b6ce084f-b8bf-44be-a9c4-b736dcefd5d5" dataset="u201212290_qaloantec.deposits" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="b6ce084f-b8bf-44be-a9c4-b736dcefd5d5" dataset="u201212290_qaloantec.cron_schedules" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />

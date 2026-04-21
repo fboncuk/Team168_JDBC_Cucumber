@@ -50,16 +50,6 @@ public class LoantechStepdefinitions {
         ReusableMethods.closeMyConnection();
     }
 
-
-
-
-
-
-
-
-
-
-
     @Then("{int}.kaydin name bilgisinin {string} oldugunu test eder")
     public void kaydin_name_bilgisinin_oldugunu_test_eder(Integer satirNo, String expectedName) throws SQLException {
 
@@ -67,7 +57,11 @@ public class LoantechStepdefinitions {
         String actualName = resultSet.getString("name");
 
         Assert.assertEquals(actualName,expectedName);
+
     }
+
+
+
 
     @Then("email bilgisi {string} olan kisi sayisinin {int} den fazla oldugunu test eder")
     public void email_bilgisi_olan_kisi_sayisinin_den_fazla_oldugunu_test_eder(String arananEmailTuru, Integer minKayitSayisi) throws SQLException {
